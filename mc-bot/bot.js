@@ -5,7 +5,7 @@ console.log('Försöker ansluta till servern...');
 const bot = mineflayer.createBot({
   host: 'localhost', // Eller en lokal server på din dator ('localhost')
   username: 'iwefwefwhkfhdwfwwewk',
-  version: '1.20.1' // Ändra till den version som servern kräver
+  version: false // Ändra till den version som servern kräver
 });
 
 // Det här kommer att triggas så fort botten lyckas ta sig förbi nätverkslagret
