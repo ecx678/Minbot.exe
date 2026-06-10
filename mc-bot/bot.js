@@ -3,7 +3,7 @@ const mineflayer = require('mineflayer');
 console.log('Försöker ansluta till servern...');
 
 const bot = mineflayer.createBot({
-  host: '2b2t.org', // Eller en lokal server på din dator ('localhost')
+  host: 'localhost', // Eller en lokal server på din dator ('localhost')
   username: 'iwefwefwhkfhdwfwwewk',
   version: '1.20.1' // Ändra till den version som servern kräver
 });
